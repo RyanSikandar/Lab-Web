@@ -19,7 +19,7 @@ body {
 
 /* Container for the entire page */
 .container {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 100%;
     max-width: 400px;
     padding: 20px;
@@ -31,7 +31,7 @@ body {
 /* Header styling */
 header h1 {
     font-size: 24px;
-    color: #456fa0;
+    color: #3e8e41;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@ main {
 /* Login form */
 .login-form h2 {
     font-size: 20px;
-    color: #333;
+    color: #3e8e41;
     margin-bottom: 15px;
     font-weight: 600;
 }
@@ -64,13 +64,14 @@ main {
     width: 100%;
     padding: 10px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #d4e6d5;
     border-radius: 4px;
     margin-top: 5px;
+    background-color: #f9fff7;
 }
 
 .form-group input:focus {
-    border-color: #456fa0;
+    border-color: #3e8e41;
     outline: none;
 }
 
@@ -78,7 +79,7 @@ main {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #456fa0;
+    background-color: #3e8e41;
     color: white;
     border: none;
     border-radius: 4px;
@@ -88,7 +89,7 @@ button {
 }
 
 button:hover {
-    background-color: #00489b;
+    background-color: #2b6e31;
 }
 
 /* Footer */

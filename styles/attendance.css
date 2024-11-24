@@ -3,31 +3,35 @@
 }
 
 .attendance-form {
-    background: white;
+    background: #ffffff;
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .student-list {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .student-list th, .student-list td {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 12px;
+    border: 1px solid #d4e6d5;
     text-align: left;
 }
 
 .student-list th {
-    background-color: #456fa0;
-    color: white;
+    background-color: #3e8e41;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .student-list tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f9fff7;
 }
 
 .attendance-controls {
@@ -35,21 +39,25 @@
 }
 
 .success-message {
-    color: green;
-    background: #e8f5e9;
+    color: #155724;
+    background: #d4edda;
     padding: 10px;
     border-radius: 4px;
     margin: 10px 0;
+    border: 1px solid #c3e6cb;
 }
 
 select.status-select {
-    padding: 5px;
+    padding: 8px;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid #a8d5a1;
+    background: #f9fff7;
+    transition: border-color 0.3s;
 }
 
-.container {
-    max-width: 800px;
+select.status-select:focus {
+    border-color: #3e8e41;
+    outline: none;
 }
 
 .attendance-stats {
@@ -60,51 +68,59 @@ select.status-select {
 }
 
 .stat-card {
-    background: white;
-    padding: 15px;
+    background: #ffffff;
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .stat-card h3 {
-    color: #456fa0;
+    color: #3e8e41;
     margin-bottom: 10px;
+}
+
+.stat-card .percentage {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3e8e41;
 }
 
 .attendance-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .attendance-table th,
 .attendance-table td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d4e6d5;
 }
 
 .attendance-table th {
-    background-color: #456fa0;
-    color: white;
+    background-color: #3e8e41;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .status {
     padding: 5px 10px;
     border-radius: 4px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .status-present {
-    background-color: #e8f5e9;
+    background-color: #d4edda;
     color: #2e7d32;
 }
 
 .status-absent {
-    background-color: #ffebee;
+    background-color: #f8d7da;
     color: #c62828;
 }
 
@@ -114,25 +130,20 @@ select.status-select {
 }
 
 .student-info {
-    background: white;
+    background: #ffffff;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .student-info h2 {
-    color: #456fa0;
+    color: #3e8e41;
     margin-bottom: 10px;
 }
 
 .student-info p {
     margin: 5px 0;
     color: #666;
-}
-
-.percentage {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 5px;
+    font-size: 1rem;
 }
